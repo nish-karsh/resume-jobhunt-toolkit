@@ -1,0 +1,9 @@
+Hi{% if recipient_name %} {{ recipient_name }}{% endif %},
+
+{{ body }}
+
+Best regards,
+{{ sender_name }}
+{% if sender_email %}{{ sender_email }}{% endif %}
+{% if sender_phone %}
+{{ sender_phone }}{% endif %}

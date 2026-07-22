@@ -1,0 +1,6 @@
+# Local-only extras (Windows/desktop). Install after requirements.txt:
+#   pip install -r requirements-local.txt
+#   python -m playwright install chromium
+# Enables opt-in browser auto-fill (apply assistant). Never auto-submits.
+-r requirements.txt
+playwright>=1.40.0

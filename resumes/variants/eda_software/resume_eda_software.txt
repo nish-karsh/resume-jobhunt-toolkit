@@ -1,0 +1,65 @@
+NISHKARSH JAIN
+nishkarshjain6@gmail.com | +91 9456691450 | http://www.linkedin.com/in/nishkarsh-jain-481327102 | https://github.com/nish-karsh
+
+SUMMARY
+Recent B.E. Electronics and Communication Engineering graduate with hands-on experience in EDA tool development through internships at Synopsys (UART Transactor development in C++ for Zebu emulator), Nvidia (STA automation with Perl scripts), and Jabil (test equipment setup). Skilled in Python, C++, Perl, and scripting for automation, with exposure to Synopsys flows, seeking to contribute to an EDA Software Engineer role.
+
+SKILLS
+Programming Languages: C/C++, Python
+Scripting: PERL
+HDL: Verilog, System Verilog
+EDA Tools: Synopsys VCS, Synopsys Prime Time, Xilinx Vivado
+FPGA Boards: Adalm-Pluto SDR, KC705 FPGA board
+Microcontrollers: STM32, ESP-32, Arduino
+Sensors: Sensors
+PCB Design: PCB design
+Simulation/Modeling: Matlab, Simulink
+Other Tools: S-Edit, Silvaco, Arduino IDE
+
+EXPERIENCE
+Technical Engineer Apprentice | Synopsys India Pvt. Ltd. Noida | Uttar Pradesh
+September 2025 - Ongoing
+- Development of UART Transactor for Zebu emulator using C++
+- Protocol functionality enhancements for Zebu Transactors using C++
+- Development of HW/SW Testbench Backwards Compatibility Agent and Script for Zebu Transactors with added AI Code review
+
+ASIC Engineer Intern (here) | Nvidia Graphics Pvt. Ltd. Bangalore | Karnataka
+January 2025 - July 2025
+- Timing Closure and Performance Optimisation for Advanced SoC Designs using Static Timing Analysis (STA)
+- Perl Scripts for Automating STA report analysis
+- Manual fixes for clock transition and crosstalk violations
+
+Test Engineer Intern (here) | Jabil Circuit India Private Limited Pune | Maharashtra
+June 2024 - July 2024
+- Working, Debugging and Testing of Ericsson s 5G Radio Transceiver - AIR3268
+- SMT Process of Ericsson AIR 3268 Transceiver PCBA
+- Setup, measurement, and calibration of Keysight test equipment
+
+PROJECTS
+Development and Implementation of a 5G Modem using an FPGA Board (5g, fpga)
+- FM Broadcast and Radio using Adalm-Pluto SDR
+- Hardware-in-the-Loop Simulation of FFT on Kintex-7 KC705 FPGA Development Board
+- Simulink Model Development, FPGA implementation of 5G transceiver using Vitis Model Composer
+
+Robosoccer Bot
+- Built an RC-controlled bot using a laser-cut metal chassis, Sabertooth motor driver, and geared motors
+
+Test Data Compression for System-on-a-Chip Using Huffman Codes April 2024
+- Implementation of Huffman Codes for data compression using Xilinx Vivado
+
+Smart Irrigation System
+- Worked on a smart irrigation system for flood-irrigated paddy fields using IoT-based systems as group leader.
+- Used ESP-32 microcontroller, nRF24L01 RF module, GSM SIM800A, and BME280 & Thingspeak IoT Cloud.
+- Worked on water conservation by automating water flow and alerting the farmer about the weather.
+
+EDUCATION
+THAPAR INSTITUTE OF ENGINEERING AND TECHNOLOGY Patiala | Punjab
+B.E., Electronics and Communication Engineering | Merit Scholarship - III awardee | CGPA: 9.05 | 2021 - 2025
+
+SILVER BELLS PUBLIC SCHOOL Shamli | Uttar Pradesh
+Senior Secondary Education(XII). Percentage-93.5% | 2018 - 2020
+
+CERTIFICATIONS
+- ZEBU Emulator Fundamental Training 2025
+- VLSI Design-FPGA and ASIC (here) 2023
+- IoT-Based Systems (here) 2022 – 2023

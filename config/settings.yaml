@@ -1,0 +1,85 @@
+# NVIDIA NIM / OpenAI-compatible API settings.
+# Override any value via environment: SETTINGS__MODELS__PRIMARY, SETTINGS__BASE_URL, etc.
+# (double-underscore nesting) or NVIDIA_API_KEY for the API key.
+
+base_url: https://integrate.api.nvidia.com/v1
+
+# Deployment mode: 'local' (all features, Tectonic + browser auto-fill) or
+# 'cloud' (private web app: no server-side browser; apply = open link only).
+# Override at runtime with SETTINGS__MODE=cloud
+mode: local
+
+features:
+  pdf_engine: auto          # auto | latex | weasyprint | fpdf
+  job_search: true
+  apply_autofill: true      # local only; automatically disabled in cloud mode
+  company_research: true
+  cover_letter: true
+  email_draft: true
+
+apply:
+  # Persistent browser profile for local auto-fill (keeps you logged in between runs).
+  # Empty -> <project>/.browser_profile
+  browser_profile_dir: ""
+
+models:
+  primary: nvidia/nemotron-3-super-120b-a12b
+  # Resume tailoring uses a reliable instruct model by default (the reasoning
+  # primary tended to emit long <think> output and truncate the JSON). Override
+  # with SETTINGS__MODELS__TAILOR if you want to experiment.
+  tailor: meta/llama-3.3-70b-instruct
+  fallbacks:
+    - nvidia/llama-3.3-nemotron-super-49b-v1.5
+    - meta/llama-3.3-70b-instruct
+  utility: nvidia/nemotron-3-nano-30b-a3b
+  high_end_alt: qwen/qwen3.5-397b-a17b
+
+rate_limit_rpm: 40
+request_timeout_s: 120
+max_retries: 4
+
+export:
+  docx: false
+  formats:
+    - pdf
+    - txt
+
+# Job searcher. Uses only free/legal sources (no LinkedIn/Naukri scraping).
+# Adzuna needs a free key (ADZUNA_APP_ID / ADZUNA_APP_KEY from developer.adzuna.com).
+# Company boards: add tokens from the careers URL, e.g. boards.greenhouse.io/<token>
+# or jobs.lever.co/<company>.
+job_search:
+  enabled_sources:
+    - adzuna
+    - remotive
+    - greenhouse
+    - lever
+  adzuna_country: in
+  results_per_source: 25
+  max_days_old: 30
+  default_location: India
+  default_queries:
+    - Design Verification Engineer
+    - ASIC Verification Engineer
+    - VLSI Engineer
+    - RTL Design Engineer
+  company_boards:
+    greenhouse: []
+    lever: []
+
+# Optional SMTP (review-and-send only; live sending not implemented in v1).
+smtp:
+  enabled: false
+  host: ""
+  port: 587
+  use_tls: true
+
+paths:
+  seed_resume: data/seed_resume.pdf
+  profile_yaml: config/profile.yaml
+  profile_cache_json: data/profile_cache.json
+  output_dir: resumes/output
+  variants_dir: resumes/variants
+  tracker_xlsx: data/applications.xlsx
+  jobs_db: data/jobhunt.db
+  templates_dir: templates

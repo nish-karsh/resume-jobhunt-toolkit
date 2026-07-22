@@ -1,0 +1,60 @@
+Emulation Engineer — Zebu, Palladium, Veloce, hardware emulation, transactor development, C++ modeling, UART/SPI protocols, HW/SW co-verification, testbench acceleration, debug on emulator.
+Emulation Engineer
+Zebu or Palladium emulation platform experience Transactor and protocol modeling in C++ HW/SW co-verification UART and serial protocol knowledge Emulation debug and regression
+emulation zebu palladium veloce transactor c++ uart spi protocol hw/sw co-verification testbench acceleration debug modeling
+NISHKARSH JAIN
+nishkarshjain6@gmail.com | +91 9456691450 | http://www.linkedin.com/in/nishkarsh-jain-481327102 | https://github.com/nish-karsh
+
+SUMMARY
+Recent B.E. Electronics and Communication Engineering graduate with hands on experience in emulation, UART protocol development, and HW/SW co verification gained through internships at Synopsys, Nvidia, and Jabil. Skilled in creating UART transactors for Zebu emulators using C++, enhancing protocol functionality, and building HW/SW testbench agents. Strong foundation in Verilog/SystemVerilog, C/C++, Perl, Python, and static timing analysis, seeking to contribute as an Emulation Engineer.
+
+SKILLS
+Technical: C/C++, Verilog, System Verilog, Python, PERL, PCB design
+Embedded Hardware: Adalm-Pluto SDR, KC705 FPGA board, STM32, ESP-32, Arduino, Sensors
+Laboratory: Synopsys VCS, Synopsys Prime Time, Xilinx Vivado, Matlab, Simulink, S-Edit, Silvaco, Arduino IDE
+
+EXPERIENCE
+Technical Engineer Apprentice | Synopsys India Pvt. Ltd. Noida | Uttar Pradesh
+September 2025 - Ongoing
+- Developed a UART transactor for the Zebu emulator using C++.
+- Enhanced protocol functionality for Zebu transactors using C++.
+- Developed HW/SW testbench backwards compatibility agent and script for Zebu transactors, incorporating AI-based code review.
+
+ASIC Engineer Intern (here) | Nvidia Graphics Pvt. Ltd. Bangalore | Karnataka
+January 2025 - July 2025
+- Achieved timing closure and performance optimization for advanced SoC designs using Static Timing Analysis (STA).
+- Created Perl scripts to automate STA report analysis.
+- Performed manual fixes for clock transition and crosstalk violations.
+
+Test Engineer Intern (here) | Jabil Circuit India Private Limited Pune | Maharashtra
+June 2024 - July 2024
+- Performed working, debugging, and testing of Ericsson s 5G radio transceiver (AIR3268).
+
+PROJECTS
+Development and Implementation of a 5G Modem using an FPGA Board (5g, fpga)
+- Implemented FM broadcast and radio using Adalm-Pluto SDR.
+- Conducted hardware-in-the-loop simulation of FFT on Kintex-7 KC705 FPGA development board.
+- Developed Simulink models and FPGA implementation of a 5G transceiver using Vitis Model Composer.
+
+Robosoccer Bot
+- Built an RC-controlled robot with a laser-cut metal chassis, Sabertooth motor driver, and geared motors.
+
+Test Data Compression for System-on-a-Chip Using Huffman Codes April 2024
+- Implemented Huffman coding for data compression using Xilinx Vivado.
+
+Smart Irrigation System
+- Worked on a smart irrigation system for flood-irrigated paddy fields using IoT-based systems as group leader.
+- Used ESP-32 microcontroller, nRF24L01 RF module, GSM SIM800A, and BME280 & Thingspeak IoT Cloud.
+- Worked on water conservation by automating water flow and alerting the farmer about the weather.
+
+EDUCATION
+THAPAR INSTITUTE OF ENGINEERING AND TECHNOLOGY Patiala | Punjab
+B.E., Electronics and Communication Engineering | Merit Scholarship - III awardee | CGPA: 9.05 | 2021 - 2025
+
+SILVER BELLS PUBLIC SCHOOL Shamli | Uttar Pradesh
+Senior Secondary Education(XII). Percentage-93.5% | 2018 - 2020
+
+CERTIFICATIONS
+- ZEBU Emulator Fundamental Training 2025
+- VLSI Design-FPGA and ASIC (here) 2023
+- IoT-Based Systems (here) 2022 – 2023

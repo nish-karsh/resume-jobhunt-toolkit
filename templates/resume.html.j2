@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>{{ identity.name or 'Resume' }}</title>
+<style>
+  @page { size: {{ page_size or 'letter' }}; margin: 1.5cm 1.6cm; }
+  * { box-sizing: border-box; }
+  body {
+    font-family: "Helvetica Neue", Helvetica, Arial, "Segoe UI", sans-serif;
+    font-size: 10.5pt; line-height: 1.34; color: #1a1a1a; margin: 0;
+  }
+  header { text-align: center; margin-bottom: 4px; }
+  header .name {
+    font-size: 21pt; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase;
+  }
+  header .contact { font-size: 9.5pt; color: #333; margin-top: 3px; }
+  header .contact span:not(:first-child)::before { content: "  |  "; color: #999; }
+  header .contact a { color: #333; text-decoration: none; }
+  h2 {
+    font-size: 11.5pt; text-transform: uppercase; letter-spacing: 0.6px;
+    border-bottom: 1px solid #444; padding-bottom: 2px; margin: 13px 0 6px;
+  }
+  .entry { margin-bottom: 7px; }
+  .entry .row { display: flex; justify-content: space-between; align-items: baseline; }
+  .entry .title { font-weight: 700; }
+  .entry .sub { font-style: italic; }
+  .entry .meta { white-space: nowrap; color: #333; font-size: 9.5pt; padding-left: 10px; }
+  ul { margin: 3px 0 0; padding-left: 17px; }
+  li { margin-bottom: 2px; }
+  p { margin: 2px 0; }
+  .skills .cat { font-weight: 700; }
+</style>
+</head>
+<body>
+  <header>
+    <div class="name">{{ identity.name or 'Resume' }}</div>
+    <div class="contact">
+      {% if identity.email and identity.email != 'TODO' %}<span><a href="mailto:{{ identity.email }}">{{ identity.email }}</a></span>{% endif %}
+      {% if identity.phone and identity.phone != 'TODO' %}<span>{{ identity.phone }}</span>{% endif %}
+      {% if identity.location and identity.location != 'TODO' %}<span>{{ identity.location }}</span>{% endif %}
+      {% if identity.github %}<span><a href="{{ identity.github }}">{{ identity.github }}</a></span>{% endif %}
+      {% if identity.linkedin %}<span><a href="{{ identity.linkedin }}">{{ identity.linkedin }}</a></span>{% endif %}
+    </div>
+  </header>
+
+  {% if summary %}
+  <section>
+    <h2>Summary</h2>
+    <p>{{ summary }}</p>
+  </section>
+  {% endif %}
+
+  {% if skills %}
+  <section class="skills">
+    <h2>Skills</h2>
+    {% for category, items in skills.items() %}
+    <p><span class="cat">{{ category }}:</span> {{ items | join(', ') }}</p>
+    {% endfor %}
+  </section>
+  {% endif %}
+
+  {% if experience %}
+  <section>
+    <h2>Experience</h2>
+    {% for job in experience %}
+    <div class="entry">
+      <div class="row"><span class="title">{{ job.company }}</span><span class="meta">{{ job.start }} - {{ job.end }}</span></div>
+      <div class="row"><span class="sub">{{ job.title }}</span><span class="meta">{{ job.location }}</span></div>
+      {% if job.bullets %}
+      <ul>{% for bullet in job.bullets %}<li>{{ bullet }}</li>{% endfor %}</ul>
+      {% endif %}
+    </div>
+    {% endfor %}
+  </section>
+  {% endif %}
+
+  {% if projects %}
+  <section>
+    <h2>Projects</h2>
+    {% for project in projects %}
+    <div class="entry">
+      <div class="row"><span class="title">{{ project.name }}</span>{% if project.link %}<span class="meta"><a href="{{ project.link }}">Link</a></span>{% endif %}</div>
+      {% if project.bullets %}
+      <ul>{% for bullet in project.bullets %}<li>{{ bullet }}</li>{% endfor %}</ul>
+      {% endif %}
+    </div>
+    {% endfor %}
+  </section>
+  {% endif %}
+
+  {% if education %}
+  <section>
+    <h2>Education</h2>
+    {% for edu in education %}
+    <div class="entry">
+      <div class="row"><span class="title">{{ edu.institution }}</span><span class="meta">{{ edu.start }} - {{ edu.end }}</span></div>
+      <div class="row"><span class="sub">{{ edu.degree }}{% if edu.field %} | {{ edu.field }}{% endif %}{% if edu.gpa %} | CGPA: {{ edu.gpa }}{% endif %}</span><span class="meta">{{ edu.location }}</span></div>
+    </div>
+    {% endfor %}
+  </section>
+  {% endif %}
+
+  {% if certifications %}
+  <section>
+    <h2>Certifications</h2>
+    <ul>{% for cert in certifications %}<li>{{ cert }}</li>{% endfor %}</ul>
+  </section>
+  {% endif %}
+</body>
+</html>

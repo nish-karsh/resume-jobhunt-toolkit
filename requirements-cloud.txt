@@ -1,0 +1,6 @@
+# Cloud/Docker extras. Installed by the Dockerfile on top of requirements.txt.
+# WeasyPrint gives a nicer HTML->PDF than the pure-Python fpdf2 fallback, but it
+# needs system libraries (Pango/Cairo) - provided by the Dockerfile, so it is kept
+# out of the core requirements to keep local (Windows) installs painless.
+-r requirements.txt
+weasyprint>=60.0

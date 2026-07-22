@@ -1,0 +1,322 @@
+identity:
+  name: Nishkarsh Jain
+  email: nishkarshjain6@gmail.com
+  phone: +91 9456691450
+  location: TODO
+  linkedin: http://www.linkedin.com/in/nishkarsh-jain-481327102
+  github: https://github.com/nish-karsh
+  portfolio_links: []
+summary: Aspiring VLSI engineer and a fresh graduate seeking a fresher opportunity.
+  Through internships at Synopsys, Nvidia and Jabil, I have hands-on experience in
+  Emulation, UART protocol, STA, Physical Design, Scripting and automation. I am committed
+  to contributing to innovative projects by utilising my core knowledge and excellent
+  problem-solving skills.
+skills:
+  Technical:
+  - Verilog
+  - System Verilog
+  - C/C++
+  - PERL
+  - Python
+  - PCB design
+  Embedded Hardware:
+  - Adalm-Pluto SDR
+  - KC705 FPGA board
+  - STM32
+  - ESP-32
+  - Arduino
+  - Sensors
+  Laboratory:
+  - Synopsys VCS
+  - Synopsys Prime Time
+  - Xilinx Vivado
+  - Matlab
+  - Simulink
+  - S-Edit
+  - Silvaco
+  - Arduino IDE
+experience:
+- company: Synopsys India Pvt. Ltd.
+  title: Technical Engineer Apprentice
+  location: Noida, Uttar Pradesh
+  start: September 2025
+  end: Ongoing
+  bullets:
+  - Development of UART Transactor for Zebu emulator using C++
+  - Protocol functionality enhancements for Zebu Transactors using C++
+  - Development of HW/SW Testbench Backwards Compatibility Agent and Script for Zebu
+    Transactors with added AI Code review
+- company: Nvidia Graphics Pvt. Ltd.
+  title: ASIC Engineer Intern
+  location: Bangalore, Karnataka
+  start: January 2025
+  end: July 2025
+  bullets:
+  - Timing Closure and Performance Optimisation for Advanced SoC Designs using Static
+    Timing Analysis (STA)
+  - Perl Scripts for Automating STA report analysis
+  - Manual fixes for clock transition and crosstalk violations
+- company: Jabil Circuit India Private Limited
+  title: Test Engineer Intern
+  location: Pune, Maharashtra
+  start: June 2024
+  end: July 2024
+  bullets:
+  - Working, Debugging and Testing of Ericsson's 5G Radio Transceiver - AIR3268
+  - SMT Process of Ericsson AIR 3268 Transceiver PCBA
+  - Setup, measurement, and calibration of Keysight test equipment
+projects:
+- name: Development and Implementation of a 5G Modem using an FPGA Board
+  link: ''
+  tech:
+  - 5g
+  - fpga
+  bullets:
+  - FM Broadcast and Radio using Adalm-Pluto SDR
+  - Hardware-in-the-Loop Simulation of FFT on Kintex-7 KC705 FPGA Development Board
+  - Simulink Model Development, FPGA implementation of 5G transceiver using Vitis
+    Model Composer
+- name: Robosoccer Bot
+  link: ''
+  tech: []
+  bullets:
+  - Built an RC-controlled bot using a laser-cut metal chassis, Sabertooth motor driver,
+    and geared motors
+- name: Test Data Compression for System-on-a-Chip Using Huffman Codes
+  link: ''
+  tech: []
+  bullets:
+  - Implementation of Huffman Codes for data compression using Xilinx Vivado
+- name: Smart Irrigation System
+  link: ''
+  tech: []
+  bullets:
+  - Worked on a smart irrigation system for flood-irrigated paddy fields using IoT-based
+    systems as group leader.
+  - Used ESP-32 microcontroller, nRF24L01 RF module, GSM SIM800A, and BME280 & Thingspeak
+    IoT Cloud.
+  - Worked on water conservation by automating water flow and alerting the farmer
+    about the weather.
+education:
+- institution: THAPAR INSTITUTE OF ENGINEERING AND TECHNOLOGY
+  degree: B.E.
+  field: Electronics and Communication Engineering
+  start: '2021'
+  end: '2025'
+  gpa: '9.05'
+  location: Patiala, Punjab
+- institution: SILVER BELLS PUBLIC SCHOOL
+  degree: Senior Secondary (Class XII), 93.5%
+  field: ''
+  start: '2018'
+  end: '2020'
+  gpa: ''
+  location: Shamli, Uttar Pradesh
+certifications:
+- ZEBU Emulator Fundamental Training (2025)
+- VLSI Design - FPGA and ASIC (2023)
+- IoT-Based Systems (2022-2023)
+achievements:
+- Merit Scholarship - III awardee, Thapar Institute
+bullet_bank:
+- id: exp-001
+  text: Development of UART Transactor for Zebu emulator using C++
+  tags:
+  - zebu
+  - uart
+  - c++
+  - Development
+  - Transactor
+  source: experience
+  has_metric: false
+- id: exp-002
+  text: Protocol functionality enhancements for Zebu Transactors using C++
+  tags:
+  - zebu
+  - c++
+  - Protocol
+  - Transactors
+  source: experience
+  has_metric: false
+- id: exp-003
+  text: Development of HW/SW Testbench Backwards Compatibility Agent and Script for
+    Zebu Transactors with added AI Code review
+  tags:
+  - zebu
+  - Development
+  - HW/SW
+  - Testbench
+  - Backwards
+  - Compatibility
+  - Agent
+  - Script
+  - Transactors
+  - Code
+  source: experience
+  has_metric: false
+- id: exp-004
+  text: Timing Closure and Performance Optimisation for Advanced SoC Designs using
+    Static Timing Analysis (STA)
+  tags:
+  - sta
+  - timing
+  - Closure
+  - Performance
+  - Optimisation
+  - Advanced
+  - SoC
+  - Designs
+  - Static
+  - Analysis
+  source: experience
+  has_metric: false
+- id: exp-005
+  text: Perl Scripts for Automating STA report analysis
+  tags:
+  - perl
+  - sta
+  - Scripts
+  - Automating
+  source: experience
+  has_metric: false
+- id: exp-006
+  text: Manual fixes for clock transition and crosstalk violations
+  tags:
+  - sta
+  - Manual
+  source: experience
+  has_metric: false
+- id: exp-007
+  text: Working, Debugging and Testing of Ericsson's 5G Radio Transceiver - AIR3268
+  tags:
+  - 5g
+  - Working
+  - Debugging
+  - Testing
+  - Ericsson
+  - Radio
+  - Transceiver
+  - AIR3268
+  source: experience
+  has_metric: false
+- id: exp-008
+  text: SMT Process of Ericsson AIR 3268 Transceiver PCBA
+  tags:
+  - pcb
+  - SMT
+  - Process
+  - Ericsson
+  - AIR
+  - Transceiver
+  - PCBA
+  source: experience
+  has_metric: true
+- id: exp-009
+  text: Setup, measurement, and calibration of Keysight test equipment
+  tags:
+  - Setup
+  - Keysight
+  source: experience
+  has_metric: false
+- id: proj-001
+  text: FM Broadcast and Radio using Adalm-Pluto SDR
+  tags:
+  - sdr
+  - Broadcast
+  - Radio
+  - Adalm
+  - Pluto
+  source: project
+  has_metric: false
+- id: proj-002
+  text: Hardware-in-the-Loop Simulation of FFT on Kintex-7 KC705 FPGA Development
+    Board
+  tags:
+  - fpga
+  - Hardware
+  - Loop
+  - Simulation
+  - FFT
+  - Kintex
+  - KC705
+  - Development
+  - Board
+  source: project
+  has_metric: true
+- id: proj-003
+  text: Simulink Model Development, FPGA implementation of 5G transceiver using Vitis
+    Model Composer
+  tags:
+  - 5g
+  - simulink
+  - fpga
+  - Model
+  - Development
+  - Vitis
+  - Model
+  - Composer
+  source: project
+  has_metric: false
+- id: proj-004
+  text: Built an RC-controlled bot using a laser-cut metal chassis, Sabertooth motor
+    driver, and geared motors
+  tags:
+  - Built
+  - Sabertooth
+  source: project
+  has_metric: false
+- id: proj-005
+  text: Implementation of Huffman Codes for data compression using Xilinx Vivado
+  tags:
+  - vivado
+  - Implementation
+  - Huffman
+  - Codes
+  - Xilinx
+  source: project
+  has_metric: false
+- id: proj-006
+  text: Worked on a smart irrigation system for flood-irrigated paddy fields using
+    IoT-based systems as group leader.
+  tags:
+  - iot
+  - Worked
+  source: project
+  has_metric: false
+- id: proj-007
+  text: Used ESP-32 microcontroller, nRF24L01 RF module, GSM SIM800A, and BME280 &
+    Thingspeak IoT Cloud.
+  tags:
+  - esp-32
+  - iot
+  - Used
+  - ESP
+  - GSM
+  - SIM800A
+  - BME280
+  - Thingspeak
+  - Cloud
+  source: project
+  has_metric: true
+- id: proj-008
+  text: Worked on water conservation by automating water flow and alerting the farmer
+    about the weather.
+  tags:
+  - Worked
+  source: project
+  has_metric: false
+target_domain:
+  primary: VLSI/ASIC Design Verification (UVM/SystemVerilog)
+  secondary:
+  - RTL Design
+  - PD/STA
+  - Emulation
+  - Embedded Systems
+  - RF/DSP/SDR
+  locations:
+  - India
+  - Remote
+current_city: TODO
+target_titles: TODO
+notice_period: TODO
+from_email: nishkarshjain6@gmail.com

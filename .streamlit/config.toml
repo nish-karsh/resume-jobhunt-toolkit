@@ -1,0 +1,13 @@
+[server]
+headless = true
+# Keep CORS enabled so it doesn't conflict with XSRF protection (Streamlit warns
+# and overrides otherwise); both on is the safe default behind a cloud proxy.
+enableCORS = true
+enableXsrfProtection = true
+
+[browser]
+gatherUsageStats = false
+
+[theme]
+base = "light"
+primaryColor = "#2f6feb"

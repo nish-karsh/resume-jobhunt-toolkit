@@ -1,0 +1,43 @@
+# --- Python ---
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# --- Secrets & credentials (NEVER commit) ---
+.env
+.env.*
+nvapi
+nvapi*
+*.key
+.streamlit/secrets.toml
+
+# --- Runtime data / generated output ---
+data/*.db
+data/*.sqlite
+data/*.sqlite3
+data/*.xlsx
+data/profile_cache.json
+data/_upload_resume.pdf
+resumes/output/
+.browser_profile/
+
+# --- Original uploaded resume (personal; app uses data/seed_resume.pdf) ---
+/*.pdf
+/*.PDF
+
+# --- Transfer artifacts / stray files ---
+*.zip
+/resume.tex
+image*.png
+*.plan.md
+
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+*.log

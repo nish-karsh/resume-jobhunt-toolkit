@@ -1,0 +1,53 @@
+{
+  "variants": {
+    "design_verification": {
+      "title": "Design Verification Engineer",
+      "dir": "resumes/variants/design_verification",
+      "resume_txt": "resumes/variants/design_verification/resume_design_verification.txt",
+      "resume_tex": "resumes/variants/design_verification/resume_design_verification.tex",
+      "tailored_json": "resumes/variants/design_verification/tailored.json",
+      "index_txt": "resumes/variants/design_verification/index.txt"
+    },
+    "rtl_design": {
+      "title": "RTL Design Engineer",
+      "dir": "resumes/variants/rtl_design",
+      "resume_txt": "resumes/variants/rtl_design/resume_rtl_design.txt",
+      "resume_tex": "resumes/variants/rtl_design/resume_rtl_design.tex",
+      "tailored_json": "resumes/variants/rtl_design/tailored.json",
+      "index_txt": "resumes/variants/rtl_design/index.txt"
+    },
+    "physical_design_sta": {
+      "title": "Physical Design / STA Engineer",
+      "dir": "resumes/variants/physical_design_sta",
+      "resume_txt": "resumes/variants/physical_design_sta/resume_physical_design_sta.txt",
+      "resume_tex": "resumes/variants/physical_design_sta/resume_physical_design_sta.tex",
+      "tailored_json": "resumes/variants/physical_design_sta/tailored.json",
+      "index_txt": "resumes/variants/physical_design_sta/index.txt"
+    },
+    "emulation": {
+      "title": "Emulation Engineer",
+      "dir": "resumes/variants/emulation",
+      "resume_txt": "resumes/variants/emulation/resume_emulation.txt",
+      "resume_tex": "resumes/variants/emulation/resume_emulation.tex",
+      "tailored_json": "resumes/variants/emulation/tailored.json",
+      "index_txt": "resumes/variants/emulation/index.txt"
+    },
+    "embedded_firmware": {
+      "title": "Embedded / Firmware Engineer",
+      "dir": "resumes/variants/embedded_firmware",
+      "resume_txt": "resumes/variants/embedded_firmware/resume_embedded_firmware.txt",
+      "resume_tex": "resumes/variants/embedded_firmware/resume_embedded_firmware.tex",
+      "tailored_json": "resumes/variants/embedded_firmware/tailored.json",
+      "index_txt": "resumes/variants/embedded_firmware/index.txt"
+    },
+    "eda_software": {
+      "title": "EDA Software Engineer",
+      "dir": "resumes/variants/eda_software",
+      "resume_txt": "resumes/variants/eda_software/resume_eda_software.txt",
+      "resume_tex": "resumes/variants/eda_software/resume_eda_software.tex",
+      "tailored_json": "resumes/variants/eda_software/tailored.json",
+      "index_txt": "resumes/variants/eda_software/index.txt"
+    }
+  },
+  "built_at": "2026-07-02T20:20:22Z"
+}

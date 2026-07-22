@@ -1,0 +1,1 @@
+Tectonic is not installed or not on PATH. Install it for PDF output (Windows: winget install tectonic-typesetting.tectonic or scoop install tectonic). .tex and .txt were still written.

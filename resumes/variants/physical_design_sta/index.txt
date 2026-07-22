@@ -1,0 +1,62 @@
+Physical Design and STA Engineer — Static Timing Analysis, PrimeTime, timing closure, synthesis, placement and routing, DFT, scan, crosstalk, clock transition, signoff, Tcl/Perl automation.
+Physical Design / STA Engineer
+Static Timing Analysis (STA) with PrimeTime Timing closure and optimization Physical design flow knowledge Perl/Tcl scripting for EDA automation DFT and scan basics
+sta static timing primetime physical design synthesis placement routing dft scan crosstalk signoff perl tcl closure optimization
+NISHKARSH JAIN
+nishkarshjain6@gmail.com | +91 9456691450 | http://www.linkedin.com/in/nishkarsh-jain-481327102 | https://github.com/nish-karsh
+
+SUMMARY
+...
+
+SKILLS
+Technical: PERL, Python, Verilog, System Verilog, C/C++, PCB design
+Embedded Hardware: Adalm-Pluto SDR, KC705 FPGA board, STM32, ESP-32, Arduino, Sensors
+Laboratory: Synopsys Prime Time, Synopsys VCS, Xilinx Vivado, Matlab, Simulink, S-Edit, Silvaco, Arduino IDE
+
+EXPERIENCE
+Technical Engineer Apprentice | Synopsys India Pvt. Ltd. Noida | Uttar Pradesh
+September 2025 - Ongoing
+- Developed a UART Transactor for the Zebu emulator using C++ to support verification and emulation flows.
+- Enhanced protocol functionality for Zebu Transactors using C++ to improve compatibility and performance.
+- Created a HW/SW Testbench Backwards Compatibility Agent and script for Zebu Transactors, incorporating AI assisted code review.
+
+ASIC Engineer Intern (here) | Nvidia Graphics Pvt. Ltd. Bangalore | Karnataka
+January 2025 - July 2025
+- Performed timing closure and performance optimization for advanced SoC designs using Static Timing Analysis (STA).
+- Created Perl scripts to automate STA report analysis and streamline sign off workflows.
+- Performed manual fixes to resolve clock transition and crosstalk violations in critical paths.
+
+Test Engineer Intern (here) | Jabil Circuit India Private Limited Pune | Maharashtra
+June 2024 - July 2024
+- Performed functional verification, debugging, and testing of Ericsson s 5G Radio Transceiver (AIR3268).
+- Executed the SMT assembly process for Ericsson AIR 3268 transceiver PCBA.
+- Configured, measured, and calibrated Keysight test equipment for accurate validation.
+
+PROJECTS
+Development and Implementation of a 5G Modem using an FPGA Board (5g, fpga)
+- Implemented FM broadcast and radio functionality using an Adalm Pluto SDR platform.
+- Conducted hardware in the loop simulation of FFT on a Kintex 7 KC705 FPGA development board.
+- Developed Simulink models and implemented a 5G transceiver on FPGA using Vitis Model Composer.
+
+Robosoccer Bot
+- Built an RC controlled robot with a laser cut metal chassis, Sabertooth motor driver, and geared motors.
+
+Test Data Compression for System-on-a-Chip Using Huffman Codes April 2024
+- Implemented Huffman coding for data compression on an FPGA using Xilinx Vivado.
+
+Smart Irrigation System
+- Led a team to design a smart irrigation system for flood irrigated paddy fields using IoT based solutions.
+- Integrated ESP 32 microcontroller, nRF24L01 RF module, GSM SIM800A, and BME280 with Thingspeak IoT cloud for monitoring.
+- Worked on water conservation by automating water flow and alerting the farmer about the weather.
+
+EDUCATION
+THAPAR INSTITUTE OF ENGINEERING AND TECHNOLOGY Patiala | Punjab
+B.E., Electronics and Communication Engineering | Merit Scholarship - III awardee | CGPA: 9.05 | 2021 - 2025
+
+SILVER BELLS PUBLIC SCHOOL Shamli | Uttar Pradesh
+Senior Secondary Education(XII). Percentage-93.5% | 2018 - 2020
+
+CERTIFICATIONS
+- ZEBU Emulator Fundamental Training 2025
+- VLSI Design-FPGA and ASIC (here) 2023
+- IoT-Based Systems (here) 2022 – 2023

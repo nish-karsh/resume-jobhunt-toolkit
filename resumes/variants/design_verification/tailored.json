@@ -1,0 +1,424 @@
+{
+  "identity": {
+    "name": "Nishkarsh Jain",
+    "email": "nishkarshjain6@gmail.com",
+    "phone": "+91 9456691450",
+    "location": "TODO",
+    "linkedin": "http://www.linkedin.com/in/nishkarsh-jain-481327102",
+    "github": "https://github.com/nish-karsh",
+    "portfolio_links": []
+  },
+  "summary": "Recent B.E. Electronics and Communication Engineering graduate with hands-on experience in UART transactor development, testbench scripting, static timing analysis, and hardware testing internships at Synopsys, Nvidia, and Jabil. Skilled in SystemVerilog, C++, Perl, Python, VCS, and FPGA-based verification, seeking to contribute as a Design Verification Engineer.",
+  "skills": {
+    "Technical": [
+      "Verilog",
+      "System Verilog",
+      "C/C++",
+      "PERL",
+      "Python",
+      "PCB design"
+    ],
+    "Embedded Hardware": [
+      "Adalm-Pluto SDR",
+      "KC705 FPGA board",
+      "STM32",
+      "ESP-32",
+      "Arduino",
+      "Sensors"
+    ],
+    "Laboratory": [
+      "Synopsys VCS",
+      "Synopsys Prime Time",
+      "Xilinx Vivado",
+      "Matlab",
+      "Simulink",
+      "S-Edit",
+      "Silvaco",
+      "Arduino IDE"
+    ]
+  },
+  "experience": [
+    {
+      "company": "Synopsys India Pvt. Ltd. Noida",
+      "title": "Technical Engineer Apprentice",
+      "location": "Uttar Pradesh",
+      "start": "September 2025",
+      "end": "Ongoing",
+      "bullets": [
+        "Developed a UART Transactor for the Zebu emulator using C++.",
+        "Enhanced protocol functionality for Zebu Transactors using C++.",
+        "Created HW/SW testbench backwards compatibility agent and script for Zebu Transactors, incorporating AI-assisted code review."
+      ]
+    },
+    {
+      "company": "Nvidia Graphics Pvt. Ltd. Bangalore",
+      "title": "ASIC Engineer Intern (here)",
+      "location": "Karnataka",
+      "start": "January 2025",
+      "end": "July 2025",
+      "bullets": [
+        "Performed timing closure and performance optimization for advanced SoC designs using Static Timing Analysis (STA).",
+        "Automated STA report analysis with Perl scripts.",
+        "Applied manual fixes to resolve clock transition and crosstalk violations."
+      ]
+    },
+    {
+      "company": "Jabil Circuit India Private Limited Pune",
+      "title": "Test Engineer Intern (here)",
+      "location": "Maharashtra",
+      "start": "June 2024",
+      "end": "July 2024",
+      "bullets": [
+        "Conducted functional testing, debugging, and validation of Ericsson’s 5G Radio Transceiver (AIR3268).",
+        "Executed SMT assembly processes for Ericsson AIR 3268 transceiver PCBA.",
+        "Configured, measured, and calibrated Keysight test equipment for verification tasks."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Development and Implementation of a 5G Modem using an FPGA Board",
+      "link": "",
+      "tech": [
+        "5g",
+        "fpga"
+      ],
+      "bullets": [
+        "Implemented FM broadcast and radio functionality using an Adalm-Pluto SDR.",
+        "Performed hardware-in-the-loop simulation of FFT on a Kintex-7 KC705 FPGA development board.",
+        "Developed Simulink models and FPGA implementation of a 5G transceiver using Vitis Model Composer."
+      ]
+    },
+    {
+      "name": "Robosoccer Bot",
+      "link": "",
+      "tech": [],
+      "bullets": [
+        "Built an RC-controlled robot using a laser-cut metal chassis, Sabertooth motor driver, and geared motors."
+      ]
+    },
+    {
+      "name": "Test Data Compression for System-on-a-Chip Using Huffman Codes April 2024",
+      "link": "",
+      "tech": [],
+      "bullets": [
+        "Implemented Huffman coding for data compression using Xilinx Vivado."
+      ]
+    },
+    {
+      "name": "Smart Irrigation System",
+      "link": "",
+      "tech": [],
+      "bullets": [
+        "Led a group to design a smart irrigation system for flood-irrigated paddy fields using IoT-based solutions.",
+        "Utilized ESP-32 microcontroller, nRF24L01 RF module, GSM SIM800A, BME280 sensor, and Thingspeak IoT cloud for monitoring and control.",
+        "Worked on water conservation by automating water flow and alerting the farmer about the weather."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "THAPAR INSTITUTE OF ENGINEERING AND TECHNOLOGY Patiala",
+      "degree": "B.E., Electronics and Communication Engineering",
+      "field": "Merit Scholarship - III awardee",
+      "start": "2021",
+      "end": "2025",
+      "gpa": "9.05",
+      "location": "Punjab"
+    },
+    {
+      "institution": "SILVER BELLS PUBLIC SCHOOL Shamli",
+      "degree": "Senior Secondary Education(XII). Percentage-93.5%",
+      "field": "",
+      "start": "2018",
+      "end": "2020",
+      "gpa": "",
+      "location": "Uttar Pradesh"
+    }
+  ],
+  "certifications": [
+    "ZEBU Emulator Fundamental Training 2025",
+    "VLSI Design-FPGA and ASIC (here) 2023",
+    "IoT-Based Systems (here) 2022 – 2023"
+  ],
+  "achievements": [],
+  "bullet_bank": [
+    {
+      "id": "exp-001",
+      "text": "Development of UART Transactor for Zebu emulator using C++",
+      "tags": [
+        "zebu",
+        "uart",
+        "c++",
+        "Development",
+        "Transactor"
+      ],
+      "source": "experience",
+      "has_metric": false
+    },
+    {
+      "id": "exp-002",
+      "text": "Protocol functionality enhancements for Zebu Transactors using C++",
+      "tags": [
+        "zebu",
+        "c++",
+        "Protocol",
+        "Transactors"
+      ],
+      "source": "experience",
+      "has_metric": false
+    },
+    {
+      "id": "exp-003",
+      "text": "Development of HW/SW Testbench Backwards Compatibility Agent and Script for Zebu Transactors with added AI Code review",
+      "tags": [
+        "zebu",
+        "Development",
+        "HW/SW",
+        "Testbench",
+        "Backwards",
+        "Compatibility",
+        "Agent",
+        "Script",
+        "Transactors",
+        "Code"
+      ],
+      "source": "experience",
+      "has_metric": false
+    },
+    {
+      "id": "exp-004",
+      "text": "Timing Closure and Performance Optimisation for Advanced SoC Designs using Static Timing Analysis (STA)",
+      "tags": [
+        "sta",
+        "timing",
+        "Closure",
+        "Performance",
+        "Optimisation",
+        "Advanced",
+        "SoC",
+        "Designs",
+        "Static",
+        "Analysis"
+      ],
+      "source": "experience",
+      "has_metric": false
+    },
+    {
+      "id": "exp-005",
+      "text": "Perl Scripts for Automating STA report analysis",
+      "tags": [
+        "perl",
+        "sta",
+        "Scripts",
+        "Automating"
+      ],
+      "source": "experience",
+      "has_metric": false
+    },
+    {
+      "id": "exp-006",
+      "text": "Manual fixes for clock transition and crosstalk violations",
+      "tags": [
+        "sta",
+        "Manual"
+      ],
+      "source": "experience",
+      "has_metric": false
+    },
+    {
+      "id": "exp-007",
+      "text": "Working, Debugging and Testing of Ericsson’s 5G Radio Transceiver - AIR3268",
+      "tags": [
+        "5g",
+        "Working",
+        "Debugging",
+        "Testing",
+        "Ericsson",
+        "Radio",
+        "Transceiver",
+        "AIR3268"
+      ],
+      "source": "experience",
+      "has_metric": false
+    },
+    {
+      "id": "exp-008",
+      "text": "SMT Process of Ericsson AIR 3268 Transceiver PCBA",
+      "tags": [
+        "pcb",
+        "SMT",
+        "Process",
+        "Ericsson",
+        "AIR",
+        "Transceiver",
+        "PCBA"
+      ],
+      "source": "experience",
+      "has_metric": true
+    },
+    {
+      "id": "exp-009",
+      "text": "Setup, measurement, and calibration of Keysight test equipment",
+      "tags": [
+        "Setup",
+        "Keysight"
+      ],
+      "source": "experience",
+      "has_metric": false
+    },
+    {
+      "id": "proj-001",
+      "text": "FM Broadcast and Radio using Adalm-Pluto SDR🔗",
+      "tags": [
+        "sdr",
+        "Broadcast",
+        "Radio",
+        "Adalm",
+        "Pluto"
+      ],
+      "source": "project",
+      "has_metric": false
+    },
+    {
+      "id": "proj-002",
+      "text": "Hardware-in-the-Loop Simulation of FFT on Kintex-7 KC705 FPGA Development Board",
+      "tags": [
+        "fpga",
+        "Hardware",
+        "Loop",
+        "Simulation",
+        "FFT",
+        "Kintex",
+        "KC705",
+        "Development",
+        "Board"
+      ],
+      "source": "project",
+      "has_metric": true
+    },
+    {
+      "id": "proj-003",
+      "text": "Simulink Model Development, FPGA implementation of 5G transceiver using Vitis Model Composer",
+      "tags": [
+        "5g",
+        "simulink",
+        "fpga",
+        "Model",
+        "Development",
+        "Vitis",
+        "Model",
+        "Composer"
+      ],
+      "source": "project",
+      "has_metric": false
+    },
+    {
+      "id": "proj-004",
+      "text": "Built an RC-controlled bot using a laser-cut metal chassis, Sabertooth motor driver, and geared motors",
+      "tags": [
+        "Built",
+        "Sabertooth"
+      ],
+      "source": "project",
+      "has_metric": false
+    },
+    {
+      "id": "proj-005",
+      "text": "Implementation of Huffman Codes for data compression using Xilinx Vivado",
+      "tags": [
+        "vivado",
+        "Implementation",
+        "Huffman",
+        "Codes",
+        "Xilinx"
+      ],
+      "source": "project",
+      "has_metric": false
+    },
+    {
+      "id": "proj-006",
+      "text": "Worked on a smart irrigation system for flood-irrigated paddy fields using IoT-based systems as group leader.",
+      "tags": [
+        "iot",
+        "Worked"
+      ],
+      "source": "project",
+      "has_metric": false
+    },
+    {
+      "id": "proj-007",
+      "text": "Used ESP-32 microcontroller, nRF24L01 RF module, GSM SIM800A, and BME280 & Thingspeak IoT Cloud.",
+      "tags": [
+        "esp-32",
+        "iot",
+        "Used",
+        "ESP",
+        "GSM",
+        "SIM800A",
+        "BME280",
+        "Thingspeak",
+        "Cloud"
+      ],
+      "source": "project",
+      "has_metric": true
+    },
+    {
+      "id": "proj-008",
+      "text": "Worked on water conservation by automating water flow and alerting the farmer about the weather.",
+      "tags": [
+        "Worked"
+      ],
+      "source": "project",
+      "has_metric": false
+    }
+  ],
+  "meta": {
+    "job_title": "Design Verification Engineer",
+    "company": "Target Domain Cache",
+    "jd_keywords": [
+      "uvm",
+      "systemverilog",
+      "verilog",
+      "vcs",
+      "questa",
+      "verification",
+      "dv",
+      "coverage",
+      "assertion",
+      "testbench",
+      "soc",
+      "asic",
+      "constrained-random",
+      "regression",
+      "debug",
+      "vip",
+      "cocotb",
+      "python"
+    ],
+    "matched_keywords": [
+      "systemverilog",
+      "verilog",
+      "vcs",
+      "verification",
+      "dv",
+      "testbench",
+      "soc",
+      "debug",
+      "python"
+    ],
+    "missing_keywords": [
+      "uvm",
+      "questa",
+      "coverage",
+      "assertion",
+      "asic",
+      "constrained-random",
+      "regression",
+      "vip",
+      "cocotb"
+    ],
+    "model_used": "nvidia/nemotron-3-super-120b-a12b (variant:design_verification)",
+    "generated_at": "2026-07-02T20:17:05Z"
+  }
+}

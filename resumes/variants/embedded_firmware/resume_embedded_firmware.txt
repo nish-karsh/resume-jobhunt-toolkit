@@ -1,0 +1,49 @@
+NISHKARSH JAIN
+nishkarshjain6@gmail.com | +91 9456691450 | http://www.linkedin.com/in/nishkarsh-jain-481327102 | https://github.com/nish-karsh
+
+SUMMARY
+Aspiring Embedded/Firmware Engineer with hands-on experience in C/C++ firmware development, UART protocol, STM32 and ESP32 microcontrollers, IoT sensor integration, and PCB debug through internships at Synopsys, Nvidia, and Jabil, plus academic projects including a smart irrigation system based on ESP-32. Strong foundation in digital design, scripting, and testbench development, committed to delivering reliable firmware solutions.
+
+SKILLS
+Embedded Hardware: Adalm-Pluto SDR, KC705 FPGA board, STM32, ESP-32, Arduino, Sensors
+Technical: Verilog, System Verilog, C/C++, PERL, Python, PCB design
+Laboratory: Synopsys VCS, Synopsys Prime Time, Xilinx Vivado, Matlab, Simulink, S-Edit, Silvaco, Arduino IDE
+
+EXPERIENCE
+Technical Engineer Apprentice | Synopsys India Pvt. Ltd. Noida | Uttar Pradesh
+September 2025 - Ongoing
+- Developed a UART transactor for the Zebu emulator using C++ to support firmware-level protocol testing.
+- Enhanced protocol functionality of Zebu transactors in C++, improving compatibility and test coverage.
+
+ASIC Engineer Intern (here) | Nvidia Graphics Pvt. Ltd. Bangalore | Karnataka
+January 2025 - July 2025
+- Achieved timing closure and optimized performance of advanced SoC designs through static timing analysis (STA).
+- Created Perl scripts to automate STA report analysis, streamlining validation workflows.
+
+Test Engineer Intern (here) | Jabil Circuit India Private Limited Pune | Maharashtra
+June 2024 - July 2024
+- Performed working, debugging, and testing of Ericsson s 5G radio transceiver (AIR3268), validating hardware functionality.
+- Executed SMT process for Ericsson AIR 3268 transceiver PCBA, contributing to PCB assembly and bring-up.
+- Set up, measured, and calibrated Keysight test equipment for accurate hardware verification.
+
+PROJECTS
+Smart Irrigation System
+- Led a group to develop an IoT-based smart irrigation system for flood-irrigated paddy fields.
+- Implemented the system using an ESP-32 microcontroller, nRF24L01 RF module, GSM SIM800A, BME280 sensor, and Thingspeak IoT Cloud.
+- Worked on water conservation by automating water flow and alerting the farmer about the weather.
+
+Development and Implementation of a 5G Modem using an FPGA Board (5g, fpga)
+- Implemented FM broadcast and radio functionality using an Adalm-Pluto SDR platform.
+- Conducted hardware-in-the-loop simulation of FFT algorithms on a Kintex-7 KC705 FPGA development board.
+
+EDUCATION
+THAPAR INSTITUTE OF ENGINEERING AND TECHNOLOGY Patiala | Punjab
+B.E., Electronics and Communication Engineering | Merit Scholarship - III awardee | CGPA: 9.05 | 2021 - 2025
+
+SILVER BELLS PUBLIC SCHOOL Shamli | Uttar Pradesh
+Senior Secondary Education(XII). Percentage-93.5% | 2018 - 2020
+
+CERTIFICATIONS
+- ZEBU Emulator Fundamental Training 2025
+- VLSI Design-FPGA and ASIC (here) 2023
+- IoT-Based Systems (here) 2022 – 2023

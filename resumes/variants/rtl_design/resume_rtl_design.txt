@@ -1,0 +1,46 @@
+NISHKARSH JAIN
+nishkarshjain6@gmail.com | +91 9456691450 | http://www.linkedin.com/in/nishkarsh-jain-481327102 | https://github.com/nish-karsh
+
+SUMMARY
+Recent B.E. Electronics and Communication Engineering graduate with hands on experience in RTL related activities including UART transactor development, protocol enhancements, static timing analysis, and scripting for design verification. Proven ability to develop Verilog/SystemVerilog testbenches, automate STA reports, and perform timing closure on advanced SoC designs. Seeking an RTL Design Engineer role to apply strong problem solving skills and knowledge of bus protocols (e.g., UART) and low power design.
+
+SKILLS
+Technical: Verilog, System Verilog, C/C++, PERL, Python, PCB design
+Embedded Hardware: KC705 FPGA board, Adalm-Pluto SDR, ESP-32, STM32, Arduino, Sensors
+Laboratory: Synopsys VCS, Synopsys Prime Time, Xilinx Vivado, Matlab, Simulink, S-Edit, Silvaco, Arduino IDE
+
+EXPERIENCE
+Technical Engineer Apprentice | Synopsys India Pvt. Ltd. Noida | Uttar Pradesh
+September 2025 - Ongoing
+- Developed a UART transactor for the Zebu emulator using C++
+- Enhanced protocol functionality for Zebu transactors using C++
+
+ASIC Engineer Intern (here) | Nvidia Graphics Pvt. Ltd. Bangalore | Karnataka
+January 2025 - July 2025
+- Achieved timing closure and performance optimization for advanced SoC designs using Static Timing Analysis (STA)
+- Created Perl scripts to automate STA report analysis
+- Performed manual fixes for clock transition and crosstalk violations
+
+Test Engineer Intern (here) | Jabil Circuit India Private Limited Pune | Maharashtra
+June 2024 - July 2024
+- Worked on, debugged, and tested Ericsson s 5G radio transceiver (AIR3268)
+
+PROJECTS
+Development and Implementation of a 5G Modem using an FPGA Board (5g, fpga)
+- Performed hardware-in-the-loop simulation of FFT on a Kintex-7 KC705 FPGA development board
+- Developed Simulink models and implemented a 5G transceiver on FPGA using Vitis Model Composer
+
+Test Data Compression for System-on-a-Chip Using Huffman Codes April 2024
+- Implemented Huffman coding for data compression using Xilinx Vivado
+
+EDUCATION
+THAPAR INSTITUTE OF ENGINEERING AND TECHNOLOGY Patiala | Punjab
+B.E., Electronics and Communication Engineering | Merit Scholarship - III awardee | CGPA: 9.05 | 2021 - 2025
+
+SILVER BELLS PUBLIC SCHOOL Shamli | Uttar Pradesh
+Senior Secondary Education(XII). Percentage-93.5% | 2018 - 2020
+
+CERTIFICATIONS
+- ZEBU Emulator Fundamental Training 2025
+- VLSI Design-FPGA and ASIC (here) 2023
+- IoT-Based Systems (here) 2022 – 2023
